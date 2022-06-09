@@ -1,3 +1,10 @@
+.home {
+  @media only screen and (width:1366px) and (height: 768px) {
+    // margin-top: 0;
+    height: 576px;
+  }
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
