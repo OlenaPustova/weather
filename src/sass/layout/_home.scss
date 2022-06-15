@@ -1,7 +1,7 @@
 .home {
   @media only screen and (width:1366px) and (height: 768px) {
     // margin-top: 0;
-    height: 576px;
+    height: auto;
   }
 }
 
@@ -16,6 +16,9 @@
     padding-right: 0;
     width: 100%;
     overflow: hidden;
+  }
+  @media only screen and (width:1366px) and (height: 768px) {
+    height: 576px;
   }
   .home-buttons {
     margin-bottom: 30px;
