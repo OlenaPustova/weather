@@ -55,4 +55,4 @@ var t,o=arguments[3];!function(o,i){"function"==typeof t&&t.amd?t([],function(){
 },{"./marcup":"elso","./date":"pEcx","./glide-settings":"yDN0","../images/symbol-defs.svg":"bKpA","./refs/":"VyiV"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/event"),require("./js/favorite-city"),require("./js/quote"),require("./js/bg-api"),require("./js/home-weather"),require("./js/home-day"),require("./js/five-days"),require("./js/chart"),require("./js/marcup"),require("./js/geolocation");
 },{"./sass/main.scss":"clu1","./js/event":"lDTy","./js/favorite-city":"uEyK","./js/quote":"tj8B","./js/bg-api":"r1Wn","./js/home-weather":"S7J5","./js/home-day":"v9kD","./js/five-days":"tPwL","./js/chart":"TEwb","./js/marcup":"elso","./js/geolocation":"gtyt"}]},{},["Focm"], null)
-//# sourceMappingURL=/weather/src.ad642ed1.js.map
+//# sourceMappingURL=/weather/src.73add87d.js.map
