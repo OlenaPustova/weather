@@ -1,5 +1,9 @@
 .home {
-  @media only screen and (width:1366px) and (height: 768px) {
+  @media screen and (min-width: 1280px) {
+    height: 100%;
+  }
+
+  @media only screen and (width: 1366px) and (height: 768px) {
     // margin-top: 0;
     height: auto;
   }
@@ -17,7 +21,7 @@
     width: 100%;
     overflow: hidden;
   }
-  @media only screen and (width:1366px) and (height: 768px) {
+  @media only screen and (width: 1366px) and (height: 768px) {
     height: 576px;
   }
   .home-buttons {
@@ -53,7 +57,7 @@
 
 .home-weather {
   // margin-top: 45px;
-  
+
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #102136;
@@ -67,7 +71,7 @@
     margin-left: auto;
     border-radius: 34px 0 0 34px;
   }
-  @media only screen and (width:1366px) and (height: 768px) {
+  @media only screen and (width: 1366px) and (height: 768px) {
     // margin-top: 0;
   }
 
@@ -155,9 +159,11 @@
     padding-top: 60px;
     padding-bottom: 38px;
   }
-  
+
   @media screen and (min-width: 1280px) {
-   
+    position: fixed;
+    left: 0;
+    bottom: 0;
     margin-bottom: 0;
     margin-right: auto;
     margin-top: auto;
@@ -168,7 +174,7 @@
     align-items: flex-start;
     background: rgba(16, 33, 54, 0.6);
   }
-  @media only screen and (width:1366px) and (height: 768px) {
+  @media only screen and (width: 1366px) and (height: 768px) {
     position: absolute;
     left: 0;
     bottom: 0;
