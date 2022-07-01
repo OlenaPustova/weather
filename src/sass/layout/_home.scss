@@ -1,7 +1,8 @@
 .home {
-  // @media screen and (min-width: 1280px) {
-  //   height: 100%;
-  // }
+  @media screen and (min-width: 1280px) {
+    // height: 100%;
+    height: calc(100vh - 236px);
+  }
 
   @media only screen and (width: 1366px) and (height: 768px) {
     // margin-top: 0;
