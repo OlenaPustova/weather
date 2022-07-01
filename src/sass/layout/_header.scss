@@ -3,6 +3,12 @@ header {
   @media screen and (min-width: 480px) {
     padding-top: 60px;
   }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 90px;
+  }
+  @media only screen and (width: 1366px) and (height: 768px) {
+    margin-bottom: 45px;
+  }
 }
 .thumb-input {
   position: relative;
@@ -73,7 +79,7 @@ header {
   transform: scale(1.2);
 }
 
-.click-location{
+.click-location {
   background-color: black;
   border-radius: 50%;
 }
